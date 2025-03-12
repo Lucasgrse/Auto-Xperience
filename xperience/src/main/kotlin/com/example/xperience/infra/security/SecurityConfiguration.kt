@@ -1,5 +1,8 @@
 package com.example.xperience.infra.security
 
+import com.example.xperience.infra.security.filters.AuthenticationFilter
+import com.example.xperience.infra.security.filters.AuthorizationFilter
+import com.example.xperience.infra.service.UserDetailsService
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.HttpMethod

@@ -1,4 +1,4 @@
-package com.example.xperience.adapter.error
+package com.example.xperience.adapter.controller.dto.response
 
 import com.example.xperience.adapter.ErrorResponseField
 
