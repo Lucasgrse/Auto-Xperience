@@ -1,7 +1,11 @@
 package com.example.xperience.infra.security.filters
 
+import com.example.xperience.adapter.controller.dto.LoginRequestDTO
+import com.example.xperience.adapter.controller.dto.response.ErrorResponse
 import com.example.xperience.infra.security.JwtConfiguration
+import com.example.xperience.infra.security.UserDetailsImpl
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import io.swagger.v3.core.util.Json
 import jakarta.servlet.FilterChain
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse

@@ -2,6 +2,7 @@ package com.example.xperience.infra.security.filters
 
 import com.example.xperience.infra.exceptions.AuthenticationException
 import com.example.xperience.infra.security.JwtConfiguration
+import com.example.xperience.infra.service.UserDetailsService
 import jakarta.servlet.FilterChain
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse

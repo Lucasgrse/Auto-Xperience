@@ -1,6 +1,6 @@
 package com.example.xperience.infra.exceptions
 
-import com.example.xperience.adapter.error.ErrorResponse
+import com.example.xperience.adapter.controller.dto.response.ErrorResponse
 import com.example.xperience.adapter.ErrorResponseField
 import jakarta.validation.ConstraintViolationException
 import org.springframework.http.HttpStatus
