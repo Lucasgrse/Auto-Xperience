@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  db:
+    container_name: "xperience_db"
+    image: postgres:14.2
+    restart: always
+    environment:
+      POSTGRES_USER: user_xperience
+      POSTGRES_PASSWORD: user_xperience47r$x
+      POSTGRES_ROOT_PASSWORD: root
+      POSTGRES_DATABASE: postgres
+    ports:
+      - "5432:5432"
